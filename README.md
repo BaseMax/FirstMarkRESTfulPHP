@@ -19,7 +19,7 @@ Probably the fastest PHP web framework in the world. See [the-benchmarker](https
 
 ## How to deploy?
 
-**$ php index.php **
+**$ php index.php**
 
 ```
 Usage: php yourfile <command> [mode]
@@ -65,3 +65,5 @@ And if you want to launch this project in production, you have to configure your
 For more details check this page:
 
 https://stackoverflow.com/questions/33250453/how-to-solve-general-error-2006-mysql-server-has-gone-away
+
+© Copyright Max Base, 2021
