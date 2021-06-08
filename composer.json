@@ -1,0 +1,8 @@
+{
+    "require": {
+        "workerman/workerman": "^4.0",
+        "mark-php/mark": "^1.1",
+        "catfan/medoo": "^2.1",
+        "jchook/uuid": "^1.0"
+    }
+}
