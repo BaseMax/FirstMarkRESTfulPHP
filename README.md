@@ -19,7 +19,7 @@ Mark is a high performance micro framework based on [workerman](https://github.c
 
 Probably the fastest PHP web framework in the world. See [the-benchmarker](https://web-frameworks-benchmark.netlify.app/result?asc=0&order_by=level512).
 
-![Mark PHP: fastest PHP web framework in the world](benchmark.png)
+[![Mark PHP: fastest PHP web framework in the world](benchmark.png)](https://web-frameworks-benchmark.netlify.app/result?asc=0&order_by=level512)
 
 ## How to deploy?
 
