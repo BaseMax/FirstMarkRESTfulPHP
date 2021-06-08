@@ -44,7 +44,7 @@ CREATE TABLE `account` (
 --
 
 INSERT INTO `account` (`id`, `phoneNumber`, `name`, `username`, `biography`, `website`, `image`, `datetimeRegister`, `status`) VALUES
-(1, '989134950787', NULL, NULL, NULL, NULL, NULL, 1623111743, 2);
+(1, '989121115040', NULL, NULL, NULL, NULL, NULL, 1623111743, 2);
 
 -- --------------------------------------------------------
 
