@@ -9,6 +9,7 @@ Build a PHP RESTful with fastest Web micro-framework in the world!
 - Mariadb: Database
 - Some useful function to check body and input of your routes
 - Unit-Tests with **Python** scripts
+- Optimized and clean Database tables ([database.sql](database.sql))
 
 By the way, I think it's good to package if you want to easily and fast go up.
 
