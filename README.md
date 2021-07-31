@@ -56,6 +56,35 @@ $api->post('/user/create', function ($request) {}
 $api->get('/hello/{name}[/]', function ($request, $name) {}
 ```
 
+## My Performance Benchmark
+
+### Hardware
+
+**CPU:** Intel Core i5-9400F @ 6x 4.1GHz [57.0°C]
+
+```
+wrk -c 400 -d 60s -t 8 http://127.0.0.1:3003 --latency
+```
+
+Result:
+
+```
+Running 1m test @ http://127.0.0.1:3003
+  8 threads and 400 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.58ms    2.57ms  43.52ms   90.30%
+    Req/Sec    58.11k    19.26k  136.26k    71.07%
+  Latency Distribution
+     50%  610.00us
+     75%    1.73ms
+     90%    4.05ms
+     99%   13.18ms
+  27758931 requests in 1.00m, 3.28GB read
+Requests/sec: 462288.91
+Transfer/sec:     55.99MB
+```
+
+
 ## But Why it's fastest in the world?
 
 All of your functions, variables, and global variables will be parsed and ready before getting user requests.
